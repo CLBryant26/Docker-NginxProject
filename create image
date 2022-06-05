@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+        <head>
+        </head>
+        <body>
+                <p>Stick To The Plan!! You Knew It Wouldn't Be Easy!!<p>
+
+
+
+                <p>The current date and time is: <span id='date-time'></span></p>
+                <p>Make every moment count.</p>
+
+
+
+        <script>
+                var dateAndTime = new Date();
+document.getElementById('date-time').innerHTML=dateAndTime.toLocaleString();
+        </script>
+        </body>
+</html>
